@@ -17,5 +17,5 @@ largestAdjProd l maxProd adj
     
 main :: IO ()
 main = do
-    number <- readFile "big.txt"
+    number <- readFile "big-number.txt"
     print $ largestAdjProd (convertToInt number) 0 13
